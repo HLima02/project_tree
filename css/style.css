@@ -21,8 +21,12 @@ header{
 	text-align: center;
 	padding: 10px 0 25px;
 	border-bottom: 1px solid #fff;
-	width: 55%;
 	margin: 0 auto;
+}
+
+#menu_botao{
+	display: none;
+	cursor: pointer;
 }
 
 #menu_botao div{
@@ -30,7 +34,6 @@ header{
 	height: 3px;
 	width: 40px;
 	margin: 3px 0;
-	display: none;
 }
 
 #menu_list{
@@ -160,6 +163,7 @@ header{
 	width: 30%;
 	background: #fff;
 	padding: 40px 10px;
+	box-sizing: border-box;
 }
 
 blockquote{
@@ -245,3 +249,97 @@ footer{
 }
 
 
+/* ____________ Responsividades __________ */
+@media only screen and (max-width: 850px){
+	blockquote{
+		width: 90%;
+		padding-left: 10px;
+		margin: 0 0 30px 20px;
+		border-left: 4px solid #BFBFBF; 
+	}
+
+	.bloq_04{
+		padding: 30px 10px;
+	}
+
+	#redes_sociais{
+	padding: 10px 5px 0 20px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	#title_botao{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#title_pag{
+		text-align: left;
+		padding: 0;
+		border-bottom: 1px solid #fff;
+		margin: 0;
+	}
+
+	#title_pag h1{
+		font-size: 28px;
+	}
+
+	#menu_botao{
+		display: block;
+		margin-left: 30px;
+	}
+
+	#menu_list{
+		display: none;
+	}
+
+	#menu_list li{
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.div_secao02{
+		width: 45%;
+	}
+
+	#sec04_citacoes, #rodape{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bloq_04{
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	#footer_txt01{
+		width: 100%;
+	}
+
+	#redes_sociais{
+		border: none;
+		margin-top: 20px;
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
+@media only screen and (max-width: 450px){
+	#title_pag h1{
+		font-size: 23px;
+	}
+
+	.div_secao02{
+		width: 80%;
+	}
+
+	#menu_list li{
+		font-size: 14px;
+	}
+
+	#menu_list a{
+		padding: 10px 5px;
+	}
+}
