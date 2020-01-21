@@ -1,0 +1,50 @@
+body{
+	font-family: Arial, sans-serif;
+	min-width: 320px;
+}
+
+
+/* _________________ Cabeçalho ________________ */
+header{
+	background: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding: 20px 10px;
+}
+
+#title_pag{
+	font-size: 35px;
+	text-align: center;
+	padding: 10px 0 30px;
+	border-bottom: 1px solid #fff;
+	width: 40%;
+	margin: 0 auto;
+}
+
+#menu_botao div{
+	background: #fff;
+	height: 3px;
+	width: 40px;
+	margin: 3px 0;
+	display: none;
+}
+
+#menu_list{
+	text-align: center;
+	padding: 20px 0;
+}
+
+#menu_list ul{
+	display: flex;
+	justify-content: center;
+}
+
+#menu_list li{
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+#menu_list a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
