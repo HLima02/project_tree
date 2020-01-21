@@ -48,3 +48,50 @@ header{
 	text-decoration: none;
 	padding: 10px 20px;
 }
+
+
+
+/* _________________ Seção 1 - banner ________________ */
+#secao01{
+	background: url(../images/bg.jpg) no-repeat center;
+}
+
+#banner_mascara{
+	background-image: linear-gradient(to right, #6F161C, #111111);
+	opacity: 0.8;
+}
+
+#conteudo_banner{
+	padding: 180px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+#conteudo_banner h2{
+	font-size: 60px;
+	padding-bottom: 60px;
+}
+
+#p_banner{
+	font-size: 18px;
+	padding: 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
