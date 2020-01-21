@@ -41,6 +41,10 @@ header{
 	padding: 10px 0;
 }
 
+.class_menu{
+	display: block !important;
+}
+
 #menu_list ul{
 	display: flex;
 	justify-content: center;
