@@ -3,6 +3,11 @@ body{
 	min-width: 320px;
 }
 
+img{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 
 /* _________________ Cabeçalho ________________ */
 header{
@@ -130,11 +135,62 @@ header{
 }
 
 
+/* _________________ Seção 3 ________________ */
+#secao04{
+	background: #F3F3F3;
+	padding: 80px 0;
+}
 
+#sec04_topo{
+	padding: 0 20px 40px;
+	text-align: center;
+	color: #616161;
+}
 
+#sec04_topo h3{
+	font-size: 40px;
+}
 
+#sec04_citacoes{
+	display: flex;
+	justify-content: space-around;
+}
 
+.bloq_04{
+	width: 30%;
+	background: #fff;
+	padding: 40px 10px;
+}
 
+blockquote{
+	width: 70%;
+	padding-left: 40px;
+	margin: 0 0 30px 20px;
+	border-left: 4px solid #BFBFBF; 
+}
+
+blockquote p{
+	font-style: italic;
+	color: #C1C1C1;
+}
+
+.auto_block{
+	display: flex;
+	align-items: center;
+}
+
+.img_block{
+	max-width: 20%;
+	margin-right: 10px;
+}
+
+.img_block img{
+	border-radius: 100%;
+}
+
+.txt_block span{
+	color: #DF0101;
+}
 
 
 
